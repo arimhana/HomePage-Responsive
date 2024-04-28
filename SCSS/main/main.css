@@ -1,2 +1,3 @@
 @import url(../setting/setting.css);
-@import url(../2xl/2xl.css);/*# sourceMappingURL=main.css.map */
+@import url(../md/md.css) only screen and (min-width: 840px) and (max-width: 1370px);
+@import url(../2xl/2xl.css) only screen and (min-width: 1370px);/*# sourceMappingURL=main.css.map */
