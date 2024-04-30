@@ -8,7 +8,7 @@
     height: 645px;
     position: relative;
     .toptext {
-      width: 35%;
+      width: 46%;
       height: 72px;
       margin: 0 auto;
       text-align: center;
@@ -27,7 +27,7 @@
       display: flex;
       justify-content: space-between;
       .left {
-        width: 35.5%;
+        width: 46.3%;
         height: inherit;
         border-radius: 24px;
         padding: 0 32px 0 32px;
@@ -36,9 +36,10 @@
         flex-flow: row wrap;
         background-color: #ffffff;
         img {
-          width: 100%;
+          width: 568px;
           height: 260px;
           object-fit: cover;
+          border-radius: 24px;
         }
         .text {
           width: 100%;
@@ -52,7 +53,7 @@
             color: #26308c;
           }
           img {
-            width: 15.5%;
+            width: 72px;
             height: 24px;
             object-fit: cover;
             margin-top: 33px;
@@ -61,7 +62,7 @@
       }
 
       .right {
-        width: 35.5%;
+        width: 46.3%;
         height: inherit;
         border-radius: 24px;
         padding: 0 32px 0 32px;
@@ -70,9 +71,10 @@
         flex-flow: row wrap;
         background-color: #ffffff;
         img {
-          width: 100%;
+          width: 568px;
           height: 260px;
           object-fit: cover;
+          border-radius: 24px;
         }
         .text {
           width: 100%;
@@ -86,7 +88,7 @@
             color: #26308c;
           }
           img {
-            width: 15.5%;
+            width: 72px;
             height: 24px;
             object-fit: cover;
             margin-top: 33px;
@@ -96,7 +98,7 @@
     }
 
     button {
-      width: 11.4%;
+      width: 15%;
       height: 59px;
       background-color: #da722c;
       border: unset;

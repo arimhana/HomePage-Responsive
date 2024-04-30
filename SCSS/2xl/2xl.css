@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 .wrapper .header .topheader .left {
-  width: 4.6%;
+  width: 6%;
   height: 59px;
   font-family: Raleway-Bold;
   font-size: 40px;
@@ -20,7 +20,7 @@
   color: #ffffff;
 }
 .wrapper .header .topheader .right {
-  width: 36%;
+  width: 47%;
   height: 59px;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@
   justify-content: space-between;
 }
 .wrapper .header .bottomheader .left {
-  width: 31%;
+  width: 33%;
   height: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -89,7 +89,7 @@
   gap: 8px;
 }
 .wrapper .header .bottomheader .center {
-  width: 15%;
+  width: 15.5%;
   height: inherit;
   text-align: center;
   margin-left: 40px;
@@ -118,7 +118,7 @@
   color: #023047;
 }
 .wrapper .header .bottomheader .center .bottom {
-  width: 88.2%;
+  width: 88%;
   height: 98px;
   background: #ffffff;
   border-radius: 24px;
@@ -146,7 +146,7 @@
   color: #023047;
 }
 .wrapper .header .bottomheader .right {
-  width: 30%;
+  width: 32.5%;
   height: inherit;
   margin-left: 71px;
 }
@@ -170,7 +170,7 @@
   align-items: center;
 }
 .wrapper .parent_student .student .left {
-  width: 32.05%;
+  width: 41.7%;
   height: inherit;
   display: flex;
   position: relative;
@@ -200,10 +200,9 @@
   padding: 24px 32px 24px 32px;
 }
 .wrapper .parent_student .student .left .card1 .top p {
-  width: 85.5%;
+  width: 79%;
   height: 54px;
   font-family: Raleway-Bold;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 900;
   line-height: 27px;
@@ -217,7 +216,7 @@
   justify-content: space-around;
 }
 .wrapper .parent_student .student .left .card1 .bottom .information {
-  width: 34%;
+  width: 34.5%;
   height: 59px;
 }
 .wrapper .parent_student .student .left .card1 .bottom .information h2 {
@@ -262,7 +261,6 @@
   width: 85.5%;
   height: 54px;
   font-family: Raleway-Bold;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 900;
   line-height: 27px;
@@ -295,7 +293,7 @@
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card2 .bottom img {
-  width: 27%;
+  width: 120px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -303,7 +301,7 @@
   z-index: 2;
 }
 .wrapper .parent_student .student .right {
-  width: 37.5%;
+  width: 45%;
   height: 377px;
 }
 .wrapper .parent_student .student .right h2 {
@@ -345,7 +343,7 @@
   position: relative;
 }
 .wrapper .parent_courses .courses .toptext {
-  width: 35%;
+  width: 46%;
   height: 72px;
   margin: 0 auto;
   text-align: center;
@@ -365,7 +363,7 @@
   justify-content: space-between;
 }
 .wrapper .parent_courses .courses .course .left {
-  width: 35.5%;
+  width: 46.3%;
   height: inherit;
   border-radius: 24px;
   padding: 0 32px 0 32px;
@@ -375,10 +373,11 @@
   background-color: #ffffff;
 }
 .wrapper .parent_courses .courses .course .left img {
-  width: 100%;
+  width: 568px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 24px;
 }
 .wrapper .parent_courses .courses .course .left .text {
   width: 100%;
@@ -393,14 +392,14 @@
   color: #26308c;
 }
 .wrapper .parent_courses .courses .course .left .text img {
-  width: 15.5%;
+  width: 72px;
   height: 24px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 33px;
 }
 .wrapper .parent_courses .courses .course .right {
-  width: 35.5%;
+  width: 46.3%;
   height: inherit;
   border-radius: 24px;
   padding: 0 32px 0 32px;
@@ -410,10 +409,11 @@
   background-color: #ffffff;
 }
 .wrapper .parent_courses .courses .course .right img {
-  width: 100%;
+  width: 568px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 24px;
 }
 .wrapper .parent_courses .courses .course .right .text {
   width: 100%;
@@ -428,14 +428,14 @@
   color: #26308c;
 }
 .wrapper .parent_courses .courses .course .right .text img {
-  width: 15.5%;
+  width: 72px;
   height: 24px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 33px;
 }
 .wrapper .parent_courses .courses button {
-  width: 11.4%;
+  width: 15%;
   height: 59px;
   background-color: #da722c;
   border: unset;
@@ -460,7 +460,7 @@
   height: 262px;
 }
 .wrapper .parent_app .app .top {
-  width: 48%;
+  width: 60%;
   height: 72px;
   margin: 0 auto;
   text-align: center;
@@ -494,7 +494,7 @@
   gap: 30px;
 }
 .wrapper .parent_app .app .bottom .left {
-  width: 22%;
+  width: 27.3%;
   height: inherit;
   background-color: #000000;
   display: flex;
@@ -503,7 +503,7 @@
   gap: 14px;
 }
 .wrapper .parent_app .app .bottom .left img {
-  width: 19%;
+  width: 60px;
   height: 60px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -516,7 +516,7 @@
   margin-right: 70px;
 }
 .wrapper .parent_app .app .bottom .right {
-  width: 22%;
+  width: 27.3%;
   height: inherit;
   background-color: #000000;
   display: flex;
@@ -525,7 +525,7 @@
   gap: 14px;
 }
 .wrapper .parent_app .app .bottom .right img {
-  width: 19%;
+  width: 55.7px;
   height: 60px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -552,7 +552,7 @@
   position: relative;
 }
 .wrapper .parent_footer .footer .left {
-  width: 12.5%;
+  width: 15.7%;
   height: 205px;
 }
 .wrapper .parent_footer .footer .left p {
@@ -573,7 +573,7 @@
   margin-left: 24px;
 }
 .wrapper .parent_footer .footer .center {
-  width: 8%;
+  width: 10%;
   height: 164px;
 }
 .wrapper .parent_footer .footer .center p {
@@ -594,7 +594,7 @@
   margin-left: 24px;
 }
 .wrapper .parent_footer .footer .right {
-  width: 37.7%;
+  width: 48%;
   height: 187px;
 }
 .wrapper .parent_footer .footer .right p {
@@ -627,7 +627,7 @@
   margin-top: 8px;
 }
 .wrapper .parent_footer .footer .right form {
-  width: 96%;
+  width: 95%;
   height: 39px;
   background-color: #ffffff;
   border-radius: 8px;

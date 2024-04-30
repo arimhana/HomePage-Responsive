@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     .left {
-      width: 32.05%;
+      width: 41.7%;
       height: inherit;
       display: flex;
       position: relative;
@@ -36,10 +36,9 @@
           border-radius: 24px;
           padding: 24px 32px 24px 32px;
           p {
-            width: 85.5%;
+            width: 79%;
             height: 54px;
             font-family: Raleway-Bold;
-            font-family: Raleway;
             font-size: 18px;
             font-weight: 900;
             line-height: 27px;
@@ -53,7 +52,7 @@
           align-items: center;
           justify-content: space-around;
           .information {
-            width: 34%;
+            width: 34.5%;
             height: 59px;
             h2 {
               font-family: Raleway-Bold;
@@ -98,7 +97,6 @@
             width: 85.5%;
             height: 54px;
             font-family: Raleway-Bold;
-            font-family: Raleway;
             font-size: 18px;
             font-weight: 900;
             line-height: 27px;
@@ -130,7 +128,7 @@
             }
           }
           img {
-            width: 27%;
+            width: 120px;
             height: auto;
             object-fit: cover;
             margin-bottom: 32px;
@@ -140,7 +138,7 @@
       }
     }
     .right {
-      width: 37.5%;
+      width: 45%;
       height: 377px;
       h2 {
         font-family: Raleway-Bold;
