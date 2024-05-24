@@ -2,7 +2,7 @@
   width: 100%;
   height: 768px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 42px 116px 0 116px;
+  padding: 42px 75px 0 76px;
 }
 .wrapper .header .topheader {
   width: 100%;
@@ -44,6 +44,15 @@
   font-weight: 700;
   border: unset;
 }
+.wrapper .header .topheader #show, .wrapper .header .topheader #close {
+  display: none;
+}
+.wrapper .header .topheader label[for=close] {
+  display: none;
+}
+.wrapper .header .topheader label[for=show] {
+  display: none;
+}
 .wrapper .header .bottomheader {
   width: 100%;
   height: 582px;
@@ -52,14 +61,15 @@
   justify-content: space-between;
 }
 .wrapper .header .bottomheader .left {
-  width: 47%;
+  width: 59%;
   height: auto;
   display: flex;
   flex-flow: column nowrap;
+  margin-right: 4px;
 }
 .wrapper .header .bottomheader .left h2 {
   font-family: Raleway-Bold;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   color: #ffffff;
   margin-top: 33px;
@@ -73,7 +83,7 @@
   margin-top: 18px;
 }
 .wrapper .header .bottomheader .left button {
-  width: 46%;
+  width: 60%;
   height: 59px;
   padding: 16px 32px 16px 32px;
   border-radius: 24px;
@@ -90,7 +100,7 @@
   gap: 8px;
 }
 .wrapper .header .bottomheader .center {
-  width: 22%;
+  width: 36%;
   height: inherit;
   text-align: center;
 }
@@ -146,12 +156,12 @@
   color: #023047;
 }
 .wrapper .header .bottomheader .right {
-  width: 32.5%;
+  width: 36%;
   height: inherit;
-  margin-left: 71px;
+  margin-right: 32px;
 }
 .wrapper .header .bottomheader .right img {
-  width: 446px;
+  width: 416px;
   height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
@@ -160,7 +170,7 @@
 .wrapper .parent_student {
   width: 100%;
   height: 746px;
-  padding: 100px 115px 100px 116px;
+  padding: 100px 75px 100px 76px;
 }
 .wrapper .parent_student .student {
   width: 100%;
@@ -170,7 +180,7 @@
   align-items: center;
 }
 .wrapper .parent_student .student .left {
-  width: 49%;
+  width: 56%;
   height: inherit;
   display: flex;
   position: relative;
@@ -184,12 +194,12 @@
 }
 .wrapper .parent_student .student .left .card1 {
   width: 95.5%;
-  height: 222px;
+  height: 210px;
   background-color: #ffffff;
   border-radius: 24px;
   position: absolute;
   left: 0;
-  top: 35px;
+  top: 45px;
   box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.2);
 }
 .wrapper .parent_student .student .left .card1 .top {
@@ -210,44 +220,44 @@
 }
 .wrapper .parent_student .student .left .card1 .bottom {
   width: 100%;
-  height: 120px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .wrapper .parent_student .student .left .card1 .bottom .information {
-  width: 34.5%;
+  width: 37%;
   height: 59px;
 }
 .wrapper .parent_student .student .left .card1 .bottom .information h2 {
   font-family: Raleway-Bold;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   color: #023047;
 }
 .wrapper .parent_student .student .left .card1 .bottom .information p {
   font-family: Raleway-Regular;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   color: #023047;
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card1 .bottom img {
-  width: 110px;
+  width: 100px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-bottom: 32px;
+  margin-bottom: 56px;
   z-index: 2;
 }
 .wrapper .parent_student .student .left .card2 {
   width: 93%;
-  height: 195px;
+  height: 180px;
   background-color: #ffffff;
   border-radius: 24px;
   position: absolute;
   right: 0;
-  bottom: 44px;
+  bottom: 55px;
   box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.2);
 }
 .wrapper .parent_student .student .left .card2 .top {
@@ -274,12 +284,12 @@
   justify-content: space-around;
 }
 .wrapper .parent_student .student .left .card2 .bottom .information {
-  width: 34%;
+  width: 36%;
   height: 59px;
 }
 .wrapper .parent_student .student .left .card2 .bottom .information h2 {
   font-family: Raleway-Bold;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   color: #023047;
 }
@@ -287,27 +297,27 @@
   width: -moz-max-content;
   width: max-content;
   font-family: Raleway-Regular;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #023047;
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card2 .bottom img {
-  width: 110px;
+  width: 100px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-bottom: 32px;
+  margin-bottom: 56px;
   z-index: 2;
 }
 .wrapper .parent_student .student .right {
-  width: 45%;
+  width: 56%;
   height: 377px;
   margin-left: 60px;
 }
 .wrapper .parent_student .student .right h2 {
   font-family: Raleway-Bold;
-  font-size: 47px;
+  font-size: 42px;
   font-weight: 900;
   color: #023047;
 }
@@ -320,7 +330,7 @@
   color: #023047;
 }
 .wrapper .parent_student .student .right button {
-  width: 40%;
+  width: 43%;
   height: 59px;
   background-color: #da722c;
   border-radius: 24px;
@@ -336,7 +346,7 @@
   width: 100%;
   height: 785px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 70px 115px 70px 116px;
+  padding: 70px 75px 70px 76px;
 }
 .wrapper .parent_courses .courses {
   width: 100%;
@@ -344,7 +354,7 @@
   position: relative;
 }
 .wrapper .parent_courses .courses .toptext {
-  width: 54%;
+  width: 44%;
   height: 72px;
   margin: 0 auto;
   text-align: center;
@@ -374,7 +384,7 @@
   background-color: #ffffff;
 }
 .wrapper .parent_courses .courses .course .left img {
-  width: 413px;
+  width: 350px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -388,13 +398,13 @@
 }
 .wrapper .parent_courses .courses .course .left .text p {
   font-family: Raleway-Bold;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
   color: #023047;
 }
 .wrapper .parent_courses .courses .course .left .text img {
-  width: 72px;
-  height: 24px;
+  width: 52px;
+  height: 18px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 33px;
@@ -410,7 +420,7 @@
   background-color: #ffffff;
 }
 .wrapper .parent_courses .courses .course .right img {
-  width: 413px;
+  width: 350px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -424,20 +434,20 @@
 }
 .wrapper .parent_courses .courses .course .right .text p {
   font-family: Raleway-Bold;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 900;
   color: #023047;
   line-height: 45px;
 }
 .wrapper .parent_courses .courses .course .right .text img {
-  width: 72px;
-  height: 24px;
+  width: 52px;
+  height: 18px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 33px;
 }
 .wrapper .parent_courses .courses button {
-  width: 18%;
+  width: 20%;
   height: 59px;
   background-color: #da722c;
   border: unset;
@@ -455,7 +465,7 @@
 .wrapper .parent_app {
   width: 100%;
   height: 462px;
-  padding: 100px 148px;
+  padding: 100px 75px;
 }
 .wrapper .parent_app .app {
   width: 100%;
@@ -685,4 +695,4 @@
   line-height: 32px;
   text-align: left;
   color: #ffffff;
-}/*# sourceMappingURL=xl.css.map */
+}/*# sourceMappingURL=lg.css.map */
